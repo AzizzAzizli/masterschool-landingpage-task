@@ -5,10 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+// Swiper styles are imported globally in app/globals.css
 
 const teamMembers = [
   "Abdı Dilbər.jpg",

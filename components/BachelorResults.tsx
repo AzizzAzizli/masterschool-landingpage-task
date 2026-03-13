@@ -5,11 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import 'swiper/css/effect-coverflow';
+// Swiper styles are imported globally in app/globals.css
 
 const resultsImages = Array.from({ length: 15 }, (_, i) => `/images/neticeler/img${i + 1}.png`);
 

@@ -6,6 +6,13 @@ import { getLocale, getMessages } from "next-intl/server";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+// Swiper Styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+import "swiper/css/effect-coverflow";
 export const metadata: Metadata = {
   title: "MasterSchool — Gələcəyin Təhsili",
   description:
