@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "branches": "Filiallar",
+    "teachers": "Müəllimlər",
+    "contact": "Əlaqə"
+  },
+  "top-section": {
+    "title": "Peşəkar təhsil, parlaq gələcək",
+    "subtitle": "Sənaye peşəkarları tərəfindən hazırlanmış ən müasir kurslarla karyeranızı dəyişdirin. Öz tempinizdə öyrənin və arzularınıza nail olun",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə"
+  },
+  "about": {
+    "title": "Master School – 10 illik təcrübə, yüzlərlə uğur! ",
+    "description": "Artıq 10 ildir ki, Master School Təhsil Mərkəzi təhsildə keyfiyyətin, peşəkarlığın və uğurun ünvanıdır... ",
+    "proud": "Uğurlarımızla fəxr edirik:",
+    "proudItem1": "Magistratura üzrə son 6 ildə həm Azərbaycan, həm də Rus bölmələri üzrə 11 Respublika birincimiz olub. ",
+    "proudItem2": "Həmçinin Dövlət qulluğu və Doktorantura istiqamətlərində onlarla Respublika birinciliyi qazanmışıq. ",
+    "endText": "Master School – bilik, zəhmət və uğurun kəsişdiyi məkan. "
+  },
+  "services": {
+    "sectionTitle": "Xidmətlər",
+    "title": "Təklif Etdiyimiz Xidmətlər",
+    "subtitle": "Tələbələrimizə ən yaxşı təhsil xidmətlərini təqdim edirik",
+    "explore": "Kəşf et",
+    "items": [
+      {
+        "title": "Abituriyent Hazırlığı",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Dərslərimiz həftədə 2 dəfə, 1.5 saat olmaqla keçirilir. İlk dərs ödənişsiz sınaq dərsidir.ı"
+      },
+      {
+        "title": "Magistratura",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Magistratura hazırlığı 3 fənn üzrə tədris edilir:Məntiq, İnformatika,Xarici dil.Hər fənn həftədə 2 dəfə olmaqla 90 dəqiqə keçirilir. Həftəsonları tələbələr üçün mükafatlı SINAQ İMTAHANI keçirilir. Magistraturaya qəbul imtahanında yüksək bal toplayacaq tələbələr pul mükafatları əldə edirlər..."
+      },
+      {
+        "title": "Dövlət qulluğu",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Həftədə 2 dəfə, 90 dəqiqə olmaqla keçirilir. Hər həftə sonu sınaq imtahanları təşkil edilir."
+      },
+      {
+        "title": "IELTS",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Dərslərimiz həftədə 2 dəfə, 1.5 saat olmaqla keçirilir. İlk dərs ödənişsiz sınaq dərsidir. Dərs saatından əlavə həftədə 2 dəfə, 1.5 saatdan 3 saata qədər davam edən danışıq klublarımız olur. Hər ayın sonu ay üzrə keçirilmiş dərslərin imtahanı keçirilir."
+      },
+      {
+        "title": "Məktəbəqədər",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Dərslərimiz həftədə 2 dəfə, 1.5 saat olmaqla keçirilir. İlk dərs ödənişsiz sınaq dərsidir."
+      },
+      {
+        "title": "Miq və Sertifikasiya",
+        "card-info": "Ətraflı məlumat üçün toxunun",
+        "description": "Dərslərimiz həftədə 2 dəfə, 1.5 saat olmaqla keçirilir. İlk dərs ödənişsiz sınaq dərsidir."
+      }
+    ]
+  },
+  "team": {
+    "sectionTitle": "Komandamız",
+    "title": "Peşəkar Müəllim Heyətimiz",
+    "subtitle": "Peşəkar və təcrübəli mütəxəssislərdən ibarət komandamız sizə ən yaxşı xidməti təqdim etməyə hazırdır. "
+  },
+  "partners": {
+    "sectionTitle": "Əməkdaşlar",
+    "title": "Əməkdaşlıq Etdiyimiz Qurumlar",
+    "subtitle": "Keyfiyyətli təhsil təcrübəsini təmin etmək üçün sənayenin öndə gedən qurumları və universitetləri ilə əməkdaşlıq edirik. "
+  },
+  "branches": {
+    "sectionTitle": "Filiallar",
+    "title": "Filiallarımız",
+    "subtitle": "Şəhərin müxtəlif nöqtələrində sizə xidmət göstəririk ",
+    "locations": [
+      {
+        "name": "28 May Filialı",
+        "address": "28 May metro stansiyası yaxınlığı",
+        "phone": "+994 50 123 45 67"
+      },
+      {
+        "name": "Elmlər Filialı",
+        "address": "Elmlər Akademiyası yaxınlığı",
+        "phone": "+994 50 234 56 78"
+      },
+      {
+        "name": "Günəşli Filialı",
+        "address": "Günəşli qəsəbəsi",
+        "phone": "+994 50 345 67 89"
+      },
+      {
+        "name": "Hövsan Filialı",
+        "address": "Hövsan qəsəbəsi",
+        "phone": "+994 50 456 78 90"
+      }
+    ]
+  },
+
+  "bachelor-results": {
+    "sectionTitle": "Nəticələrimiz",
+    "title": "Abituriyent Nəticələrimiz",
+    "subtitle": "Abituriyentlərimizdən əldə olunan nailiyyətlər"
+  },
+  "master-results": {
+    "sectionTitle": "Nəticələrimiz",
+    "title": "Magistratura Nəticələrimiz",
+    "subtitle": "Kursumuzun olmazsa olmazı yüksək magistratura nəticələrimiz"
+  },
+  "publications": {
+    "sectionTitle": "Vəsaitlər",
+    "title": "Nəşrlərimiz",
+    "subtitle": "Burada magistr, doktorantura, dövlət qulluğu və abituriyent imtahanları üçün ən keyfiyyətli tədris vəsaitləri ilə tanış ola bilərsiniz. ",
+    "books": [
+      {
+        "name": "Məntiq",
+        "description": "Magistr, dövlət qulluğu, xüsusi dövlət qulluğu üçün"
+      },
+      {
+        "name": "İnformatika",
+        "description": "Magistr, dövlət qulluğu üçün"
+      },
+      {
+        "name": "İngilis dili",
+        "description": "Magistr üçün"
+      },
+      {
+        "name": "Rus dili",
+        "description": "Magistr üçün"
+      },
+      {
+        "name": "İngilis dili",
+        "description": "Doktorantura üçün"
+      },
+      {
+        "name": "Tarix",
+        "description": "Abituriyent üçün"
+      },
+      {
+        "name": "Azərbaycan dili",
+        "description": "Abituriyent üçün"
+      },
+      {
+        "name": "Məntiq",
+        "description": "Abituriyent üçün"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Bizimlə Əlaqə",
+    "title": "Sualınız var?",
+    "subtitle": "Bizimlə əlaqə saxlayın və suallarınızı bizə göndərin. Komandamız ən qısa zamanda sizə cavab verəcək. ",
+    "name": "Adınız",
+    "surname": "Soyadınız",
+    "email": "E-poçt",
+    "email-info": "info@masterschool.az",
+    "phone": "Telefon",
+    "number": "070 710 33 43",
+    "job-hours": "İş Saatları",
+    "job-hours-info": "08:30 - 20:00",
+    "message": "Mesajınız",
+    "send": "Göndər",
+    "form-title": "Mesaj Göndərin",
+    "form-subtitle": "Formu doldurun və bizimlə əlaqə saxlayın. Ən qısa zamanda sizə geri dönüş edəcəyik. "
+  },
+  "bottom-section": {
+    "title": "Gələcəyinizə İndi İnvestisiya Edin!",
+    "subtitle": "Kurslar, qeydiyyat və ya tərəfdaşlıq imkanları haqqında məlumat almaq üçün indi bizimlə əlaqə saxlayın. ",
+    "button": "Bizimlə əlaqə"
+  },
+  "footer": {
+    "description": "Biz tələbələrə müasir texnologiyaları öyrənmək və karyera inkişafını irəli aparmaq üçün lazım olan bütün vasitələri təqdim edirik. ",
+    "quickLinks": "Sürətli Keçidlər",
+    "contactInfo": "Əlaqə Məlumatları",
+    "number": "070 710 33 43",
+    "email-info": "info@masterschool.az",
+    "address": "Nizami küç. 203B, AF Business House (Əsas filial)",
+    "job-hours-info": "08:30 - 20:00",
+    "sosial": "Sosial",
+    "rights": "MilliSoft. Bütün hüquqlar qorunur."
+  },
+  "theme": {
+    "light": "İşıqlı",
+    "dark": "Qaranlıq"
+  },
+  "toast-message": {
+    "success": "Mesajınız uğurla göndərildi.",
+    "error": "Xəta baş verdi."
+  }
+}
