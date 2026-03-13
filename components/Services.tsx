@@ -16,7 +16,7 @@ export const Services = () => {
           <p className="section-subtitle">{t("subtitle")}</p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((index) => (
             <ServiceCard
               key={index}
