@@ -6,7 +6,7 @@ import { FaInstagram, FaYoutube, FaFacebook } from 'react-icons/fa';
 import { FiMail, FiPhone, FiMapPin, FiClock } from 'react-icons/fi';
 
 const navItems = [
-  { key: "home", href: "#hero" },
+  { key: "home", href: "#home" },
   { key: "about", href: "#about" },
   { key: "services", href: "#services" },
   { key: "teachers", href: "#komanda" },

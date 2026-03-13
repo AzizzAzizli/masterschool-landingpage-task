@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 const navItems = [
-  { key: "home", href: "#hero" },
+  { key: "home", href: "#home" },
   { key: "about", href: "#about" },
   { key: "services", href: "#services" },
   { key: "teachers", href: "#komanda" },
@@ -51,6 +51,27 @@ export default function Header() {
     }
   };
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    setIsMobileOpen(false);
+
+    // Give the menu a moment to start closing so overflow hidden is removed
+    setTimeout(() => {
+      const id = href.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 10);
+  };
+
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -64,7 +85,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#hero" className="flex items-center group">
+          <a href="#home" className="flex items-center group">
             <div className="relative w-32 h-10 md:w-44 md:h-16 transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/images/master-school-logo.png"
@@ -121,9 +142,9 @@ export default function Header() {
 
             <button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
-              className={`lg:hidden p-2 rounded-lg transition-all ${
+              className={`lg:hidden p-2 rounded-lg transition-all cursor-pointer ${
                 isScrolled
-                  ? "text-text-primary hover:bg-primary-50"
+                  ? "text-white hover:bg-white/10"
                   : "text-white hover:bg-white/10"
               }`}
               aria-label="Toggle menu"
@@ -147,8 +168,8 @@ export default function Header() {
                 <a
                   key={item.key}
                   href={item.href}
-                  onClick={() => setIsMobileOpen(false)}
-                  className="block px-4 py-3 rounded-lg text-text-primary font-medium hover:bg-primary-50 hover:text-primary-500 transition-all"
+                  onClick={(e) => handleNavClick(e, item.href)}
+                  className="block px-4 py-3 rounded-lg text-text-primary font-medium hover:bg-primary-500/10 hover:text-primary-500 transition-all cursor-pointer"
                 >
                   {t(item.key)}
                 </a>

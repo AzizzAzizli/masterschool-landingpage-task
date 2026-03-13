@@ -9,7 +9,7 @@ export const TopSection = () => {
 
   return (
     <section
-      id="hero"
+      id="home"
       className="relative min-h-screen flex items-center justify-center bg-background/30 dark:bg-background/40 overflow-hidden"
     >
       <BackgroundAnimation />
