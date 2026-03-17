@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ThemeProvider, useTheme } from "@/lib/theme";
+import { ThemeProvider } from "@/lib/theme";
 import BackgroundAnimation from "@/components/BackgroundAnimation";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";

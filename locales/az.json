@@ -186,5 +186,10 @@
   "toast-message": {
     "success": "Mesajınız uğurla göndərildi.",
     "error": "Xəta baş verdi."
+  },
+  "not-found": {
+    "title": "Səhifə tapılmadı",
+    "description": "Axtardığınız səhifə mövcud deyil və ya başqa bir ünvana köçürülüb.",
+    "backHome": "Ana Səhifəyə Qayıt"
   }
 }

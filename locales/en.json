@@ -185,5 +185,10 @@
   "toast-message": {
     "success": "Your message has been sent successfully.",
     "error": "An error occurred."
+  },
+  "not-found": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved to another address.",
+    "backHome": "Back to Home"
   }
 }
