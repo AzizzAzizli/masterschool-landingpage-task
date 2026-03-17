@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
 
-// Swiper styles are imported globally in app/globals.css
 
 const resultsImages = Array.from({ length: 9 }, (_, i) => `/images/masterNeticeler/img${i + 1}.webp`);
 

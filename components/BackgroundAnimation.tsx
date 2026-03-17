@@ -92,14 +92,11 @@ export default function BackgroundAnimation() {
 
   return (
     <div className="fixed inset-0 -z-50 overflow-hidden pointer-events-none" style={{ background: "var(--hero-bg, #0f172a)" }}>
-      {/* Canvas Animasyonu */}
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
 
-      {/* Dekoratif Blur Efektleri (Bloblar) */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-[100px] animate-pulse" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-700/15 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: "3s" }} />
       
-      {/* Hafif Karartma Katmanı */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
     </div>
   );

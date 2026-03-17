@@ -19,7 +19,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
-    // 2. Çerezi oku
     const savedTheme = document.cookie
       .split("; ")
       .find((row) => row.startsWith("theme="))
@@ -35,7 +34,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     root.setAttribute("data-theme", theme);
 if (theme === "dark") {
     root.classList.add("dark");
-    root.classList.remove("light"); // Garantiye al
+    root.classList.remove("light"); 
   } else {
     root.classList.add("light");
     root.classList.remove("dark");

@@ -17,8 +17,7 @@ const bookImages = [
 export const Publications = () => {
   const t = useTranslations('publications');
   
-  // Create an array mapping indices to books since next-intl can return an array
-  // If next-intl doesn't return an exact array naturally, you can map dynamically or by a known length.
+ 
   const books = Array.from({ length: 8 }).map((_, i) => ({
     name: t(`books.${i}.name`),
     description: t(`books.${i}.description`),
