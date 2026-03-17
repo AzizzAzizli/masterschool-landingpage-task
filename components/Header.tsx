@@ -88,7 +88,7 @@ export default function Header() {
           <a href="#home" className="flex items-center group">
             <div className="relative w-32 h-10 md:w-44 md:h-16 transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="/images/master-school-logo.png"
+                src="/images/master-school-logo.webp"
                 alt="MasterSchool Logo"
                 fill
                 className="object-contain"

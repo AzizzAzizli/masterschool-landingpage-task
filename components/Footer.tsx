@@ -29,7 +29,7 @@ export const Footer = () => {
           <div className="space-y-6">
             <div className="relative w-48 h-20">
               <Image
-                src="/images/master-school-logo.png"
+                src="/images/master-school-logo.webp"
                 alt="MasterSchool Logo"
                 fill
                 className="object-contain"

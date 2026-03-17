@@ -29,7 +29,7 @@ export const Publications = () => {
     <section 
       id="nesrler" 
       className="section-padding relative overflow-hidden bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: 'url("/images/publications-bg.jpg")' }}
+      style={{ backgroundImage: 'url("/images/publications-bg.webp")' }}
     >
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black/70 dark:bg-black/80 z-0"></div>

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     // locale: "az_AZ",
   },
   icons: {
-    icon: "/master-school-logo.png",
+    icon: "/master-school-logo.webp",
   },
 };
 export default async function RootLayout({

@@ -11,25 +11,25 @@ const branches = [
   {
     key: "0",
     images: [
-      "/images/filial/28may/image.png",
-      "/images/filial/28may/image2.jpeg",
-      "/images/filial/28may/image3.jpeg",
+      "/images/filial/28may/image.webp",
+      "/images/filial/28may/image2.webp",
+      "/images/filial/28may/image3.webp",
     ]
   },
   {
     key: "1",
     images: [
-      "/images/filial/elmler/image.png",
-      "/images/filial/elmler/image2.jpeg",
+      "/images/filial/elmler/image.webp",
+      "/images/filial/elmler/image2.webp",
       "/images/filial/elmler/image3.webp",
     ]
   },
   {
     key: "2",
     images: [
-      "/images/filial/gunesli/img1.png",
-      "/images/filial/gunesli/img2.png",
-      "/images/filial/gunesli/img3.png",
+      "/images/filial/gunesli/img1.webp",
+      "/images/filial/gunesli/img2.webp",
+      "/images/filial/gunesli/img3.webp",
     ]
   },
   {

@@ -7,7 +7,7 @@ import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/module
 
 // Swiper styles are imported globally in app/globals.css
 
-const resultsImages = Array.from({ length: 15 }, (_, i) => `/images/neticeler/img${i + 1}.png`);
+const resultsImages = Array.from({ length: 15 }, (_, i) => `/images/neticeler/img${i + 1}.webp`);
 
 export const BachelorResults = () => {
   const t = useTranslations('bachelor-results');
