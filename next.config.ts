@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   experimental:{
-    optimizePackageImports: ['framer-motion', 'react-icons'],
+    // optimizePackageImports: ['framer-motion', 'react-icons'],
   }
   /* diğer config seçeneklerin buraya gelecek */
 };
