@@ -3,9 +3,16 @@ import { ThemeProvider } from "@/lib/theme";
 import BackgroundAnimation from "@/components/BackgroundAnimation";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  display: "swap",
+});
 
 // Swiper Styles
 import "swiper/css";
@@ -38,10 +45,10 @@ export default async function RootLayout({
   const locale = await getLocale();
   const messages = await getMessages();
   return (
-    <html lang={locale}>
+    <html lang={locale} className={spaceGrotesk.variable}>
       <NextIntlClientProvider messages={messages}>
         <ThemeProvider>
-          <body suppressHydrationWarning>
+          <body suppressHydrationWarning className="font-sans">
             <ToastContainer />
             <BackgroundAnimation />
             {children}
